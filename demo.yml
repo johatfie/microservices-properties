@@ -1,5 +1,6 @@
 example:
   property: I AM THE DEFAULT
+  location: git microservices-properties
 foo: bar
 management:
   endpoints:
