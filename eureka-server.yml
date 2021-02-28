@@ -1,5 +1,6 @@
 server:
   port: 8070
+
 eureka:
   instance:
     hostname: localhost
@@ -11,3 +12,8 @@ eureka:
   server:
     waitTimeInMsWhenSyncEmpty: 5
 
+spring:
+  application:
+    name: eureka-server
+  config:
+    import: 'optional:configserver:http://localhost:8071'
