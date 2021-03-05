@@ -1,2 +1,3 @@
-# microservices-properties
-Configuration properties files for microservices project
+# Widgets Are Us configuration files
+
+Configuration yaml files for the Widgets Are Us microservices demonstration project
